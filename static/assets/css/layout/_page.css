@@ -1,0 +1,19 @@
+.page {
+  min-width: var(--min-width);
+  max-width: var(--max-width);
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page__header,
+.page__footer {
+    height: 3rem;
+    background-color: var(--dark-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+.page__main {
+    background-color: var(--normal-color);
+}

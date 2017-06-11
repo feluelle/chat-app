@@ -1,0 +1,18 @@
+.index {
+    background-color: var(--normal-color);
+}
+
+.index .messages {
+    list-style-type: none;
+    margin: 0;
+    padding: .5rem;
+}
+
+.index .messages li {
+    padding: .5rem;
+    animation: message-fade-in 2s ease-in 1;
+}
+
+.index .messages li:nth-child(odd) {
+    background-color: var(--light-color);
+}

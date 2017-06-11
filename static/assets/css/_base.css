@@ -1,0 +1,18 @@
+:root {
+    --white: #FFF;
+
+    --darkest-color: #061C3B;
+    --dark-color: #163158;
+    --normal-color: #2E4A73;
+    --light-color: #4E688E;
+    --lightest-color: #788DAB;
+
+    --font-size: 1rem;
+
+    --max-width: 1200px;
+    --min-width: 400px;
+}
+
+@custom-media --phone (min-width: 400px);
+@custom-media --tablet (min-width: 800px);
+@custom-media --desktop (min-width: 1200px);

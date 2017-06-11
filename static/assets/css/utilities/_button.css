@@ -1,0 +1,13 @@
+.button {
+    background-color: var(--light-color);
+    color: var(--white);
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    width: inherit;
+    font-size: var(--font-size);
+}
+
+.button:hover {
+    background-color: var(--lightest-color);
+}

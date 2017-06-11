@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: var(--font-size) Helvetica, Arial;
+    color: var(--white);
+    background-color: var(--darkest-color);
+}
+
+@-webkit-keyframes message-fade-in {
+    0% {background: #AE843B;}
+    100% {background: none;}
+}
+@keyframes message-fade-in {
+    0% {background: #AE843B;}
+    100% {background: none;}
+}
